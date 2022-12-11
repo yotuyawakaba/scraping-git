@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Scraping App</title>
+</head>
+<body>
+<h1 th:text="${title}">ようこそ</h1>
+
+<h3>タスク　編集削除</h3>
+<table>
+	<tr th:each="obj : ${list}">
+		<td th:text=${obj.title}></td>
+		<td th:text=${obj.fee}></td>
+		<td th:text=${obj.place}></td>
+		<td th:text=${obj.outline}></td>
+		<td th:text=${obj.source_of_information}></td>
+		<td th:text=${obj.url}></td>
+	</tr>
+</table>
+
+</body>
+</html>

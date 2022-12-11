@@ -1,0 +1,12 @@
+CREATE TABLE proposition
+(
+   id INT NOT NULL AUTO_INCREMENT,
+   title VARCHAR(100) NOT NULL,
+   fee VARCHAR(100) NOT NULL,
+   place VARCHAR(100) NOT NULL,
+   outline VARCHAR(500) NOT NULL,
+   source_of_information VARCHAR(100) NOT NULL,
+   url VARCHAR(500) NOT NULL,
+   PRIMARY KEY(id)
+);
+
