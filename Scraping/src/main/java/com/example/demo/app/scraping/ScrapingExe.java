@@ -25,7 +25,7 @@ public class ScrapingExe {
 		
 	}
 	
-//テストで使用しただけなのでここのクラスは使わない
+//テストで使用しただけなのでここのクラスは使用しない
 //	public static void main(String[] args) throws IOException {
 //		
 //		ArrayList<String> propTitle = new ArrayList<String>();
